@@ -32,24 +32,23 @@ Here are your learning objectives for this self-assessment.
 
 Slim Jenkins has the existing code on Github, so you need to download it from there. Actually, developers call this process _cloning a repository_.
 
-In your terminal, to go your workspace directory.
-
-```sh
-cd ~/workspace
-```
-
-Then clone the repository to your machine with the following command.
-
-```sh
-git clone https://github.com/Nashville-Software-School-Assessments/bug-wrangler-ranch.git
-```
-
-This will create a new sub-directory called `bug-wrangler-ranch`. Use the `cd` command to navigate into that directory and open it in VS Code.
-
-```sh
-cd bug-wrangler-ranch
-code .
-```
+1. In your terminal, to go your workspace directory.
+    ```sh
+    cd ~/workspace
+    ```
+2. Click on the repository link that you got in your Slack message from the Learning Platform.
+3. On that page you will see a green **Code** button. Click on that.
+4. A small popup will appear. Click on the **SSH** text.
+5. Then click on the copy icon you see all the way to the right of the text.
+6. Back in your terminal, you will run the following command, replacing the `{your URL here}` with what you copied.
+    ```sh
+    git clone {your URL here}
+    ```
+7. This will create a new sub-directory called `bug-wrangler-ranch`. Use the `cd` command to navigate into that directory and open it in VS Code.
+    ```sh
+    cd bug-wrangler-ranch
+    code .
+    ```
 
 Open the `main.js` and create your `launch.json` so that you can debug the code starting with `main.js`. Then run the program and start the investigation.
 
